@@ -1,10 +1,35 @@
-WEEK 2 – Refinement of the objectives 
-During this week, the main focus was on refining and finalizing the objectives of the Web-Based Sign Language Translation Tool.
-The initial objectives drafted earlier were broad, so we carefully analyzed each one to make them more specific, realistic, and aligned with the overall project scope.
-We reviewed the technical requirements, the available tools, and the expected outcomes to ensure that the objectives were achievable within the project duration.
-The refinement involved rewriting vague statements into clear targets such as preparing a structured dataset, training a reliable gesture-recognition model, enabling real-time prediction, and designing a user-friendly web interface.
-We also separated core objectives from long-term enhancements to avoid scope expansion. 
-The refined objectives were organized in a logical sequence so that development could progress smoothly from data collection to deployment.
-By the end of the week, we finalized a well-defined set of objectives that would guide every stage of the system’s development with clarity and purpose.
+WEEK 2 - Requirement Analysis, Design Flow Diagram & Architecture
+Day 1 – Functional & Non-Functional Requirements Study
+Prepared detailed requirement analysis:
+Functional Requirements
+User registration and login
+Scalability for future datasets
+Day 2 – System Analysis & Feasibility Study
+Technical Feasibility
+Python, TensorFlow, MediaPipe work efficiently on available hardware.
+Economic Feasibility
+Documented feasibility in report format.
+Day 3 – Design Flow Diagram Construction
+Completed the flow-diagram structure:
+Design Flow:
+User shows gesture to webcam
+Video frame captured
+MediaPipe extracts 21 hand landmarks
+Landmarks normalized
+User Interaction Flow
+Day 4 – System Architecture Design Preparation
+Prepared detailed architecture:
+Architecture Components:
+Frontend: HTML, CSS, JS
+Documented components:
+Webcam Module
+MediaPipe Detection Module
+Pre-processing Engine
+Classification Network
+Day 5 – Full Documentation & Review
+Compiled Requirement Analysis, Flow Diagrams, Architecture into final project report.
+Ensured all diagrams are matching the model used in your PDF.
+Proof-read formatting, headings, subheadings, and technical consistency.
+Prepared week-wise summary and formatted content for submission.
 
 
