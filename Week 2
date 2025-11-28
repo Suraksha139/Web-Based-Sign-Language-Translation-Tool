@@ -1,9 +1,10 @@
-WEEK 2 – Literature Survey Review and Research Gap Identification
+WEEK 2 – Refinement of the objectives 
+During this week, the main focus was on refining and finalizing the objectives of the Web-Based Sign Language Translation Tool.
+The initial objectives drafted earlier were broad, so we carefully analyzed each one to make them more specific, realistic, and aligned with the overall project scope.
+We reviewed the technical requirements, the available tools, and the expected outcomes to ensure that the objectives were achievable within the project duration.
+The refinement involved rewriting vague statements into clear targets such as preparing a structured dataset, training a reliable gesture-recognition model, enabling real-time prediction, and designing a user-friendly web interface.
+We also separated core objectives from long-term enhancements to avoid scope expansion. 
+The refined objectives were organized in a logical sequence so that development could progress smoothly from data collection to deployment.
+By the end of the week, we finalized a well-defined set of objectives that would guide every stage of the system’s development with clarity and purpose.
 
-Week 2 was completely dedicated to conducting an extensive literature survey.
-The team reviewed more than 13 research papers from IEEE, Elsevier, and other journals that covered topics like real-time sign language recognition, CNN-based gesture classification, MediaPipe hand landmark detection, and deep learning models such as LSTM and Transformers.
-Each paper was summarized to understand existing approaches, datasets used, accuracy achieved, and technological challenges.
-Through this survey, we identified that most existing systems either supported static gestures only or required specialized hardware like Kinect sensors or gloves.
-There were very few web-based real-time translation tools.
-This helped us identify a clear research gap—the need for a fully web-based, real-time, camera-driven Indian Sign Language (ISL) translator accessible without installing any software.
-The literature survey strengthened our foundation for the project.
+
