@@ -1,5 +1,23 @@
-WEEK 1 – Literature survey as completed in phase-1 
-
-The first week of the project was dedicated to developing a deep and comprehensive understanding of the research background related to sign language translation systems, their evolution, technological foundations, and limitations in current solutions. This literature survey revision formed the intellectual foundation of the entire project. Instead of immediately beginning development, Week 1 focused on building theoretical clarity and identifying research gaps by analyzing existing works, published studies, datasets, algorithms, and translation techniques. By revisiting, refining, and expanding the literature survey, the team ensured that the direction of the project was rooted in academic understanding and not random experimentation.
-Sign language recognition has been an active area of research for more than two decades, evolving from early sensor-based systems—like glove-based tracking—to modern AI-driven models that rely on computer vision, deep learning, and natural language processing. The literature examined during Week 1 highlighted how earlier approaches faced significant constraints due to limited hardware capabilities and the absence of large, standardized sign language datasets. However, with the emergence of powerful GPUs, frameworks such as TensorFlow and PyTorch, and platforms like MediaPipe, real-time translation has become more feasible. This week allowed the team to analyze these technological transformations in detail.
-One of the key research papers reviewed during this revision week was Papatsimouli et al. (2022), which presented a comprehensive overview of real-time sign language translation systems. The authors highlighted the challenges of capturing complex hand movements, facial expressions, and body pose variations. The paper emphasized that real-time accuracy in translation depends heavily on high-quality datasets and robust deep learning architectures.
+WEEK 1 – Literature Survey Completion & Refinement of Objectives
+Day 1 – Detailed Literature Review Compilation
+Collected previous research papers related to Sign Language Recognition, MediaPipe, TensorFlow Models, CNN/LSTM techniques, and gesture recognition.
+Organized research papers year-wise and author-wise for easy referencing.
+Highlighted limitations of each paper such as low accuracy in dynamic signs, lighting sensitivity, requirement for costly sensors or gloves.
+Day 2 – Identification of Gaps in Existing Studies
+Compared all related works based on parameters like accuracy, speed, model complexity, real-time ability, cost, and usability.
+Identified key gaps:
+Limited support for web-based real-time translation tools.
+Many systems support only one-way translation.
+Day 3 – Refinement of Project Objectives
+Re-wrote the objectives more clearly and aligned them with the problem statement:
+Refined Objectives:
+Develop a real-time sign language recognition system using MediaPipe and TensorFlow.
+Create a custom dataset of hand landmarks for numeric gestures (0–9).
+Train and optimize a deep-learning model with high accuracy.
+Day 4 – Verification of Literature Survey & Objectives
+Cross-checked the literature summary with research references.
+Ensured objectives match the project scope and technology stack.
+Day 5 – Final Documentation of Week 1 Work
+Drafted the complete Literature Survey (Phase–1) in refined format.
+Finalized the Revision of Objective Section.
+Added gap analysis, comparison tables, and citations.
