@@ -1,0 +1,16 @@
+Week 5 - Architecture 
+The architecture of the Web-Based Sign Language Translation Tool is designed to provide fast, accurate, and real-time gesture recognition directly through a web browser. 
+The system follows a modular architecture divided into four main layers: the Input Layer, Processing Layer, Prediction Layer, and Output Layer, with each layer performing a specific role while maintaining smooth communication between components.
+The architecture begins with the Input Layer, where the user’s hand gestures are captured through the webcam. 
+The browser accesses the camera using built-in APIs, ensuring that the system works without installing any external software. 
+The live video stream is continuously forwarded to the Vision Processing Module within the Processing Layer.
+Here, MediaPipe Hands plays a crucial role by detecting the hand region and extracting 21 key landmark points for every frame. 
+These landmarks serve as the core input for gesture recognition.
+Once the landmarks are extracted, they move into the Data Preprocessing Subsystem, which normalizes and structures the coordinates into a stable format so that the model can understand them.
+This preprocessing helps maintain accuracy even when the user changes hand orientation or distance from the camera.
+The cleaned data is then passed to the Prediction Layer, which contains the trained TensorFlow Lite model. 
+This lightweight model is optimized to run inside the browser, ensuring real-time performance.
+It analyzes the hand-landmark patterns and predicts the corresponding sign gesture such as digits from 0–9. A prediction confidence value is also generated to help stabilize the output.
+The final stage is the Output Layer, where the recognized gesture is displayed instantly on the web interface. 
+The architecture also supports a Text-to-Speech Module, allowing the system to speak the predicted output using the browser’s built-in speech engine. Along with this, the Feedback Loop ensures the system continues analyzing every new video frame to maintain continuous translation.
+This architecture ensures low latency, smooth data flow, platform independence, and high usability, making the system efficient and accessible for real-time sign language translation.
