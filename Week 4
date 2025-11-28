@@ -1,0 +1,14 @@
+Week 4 - Design flow diagram
+The design flow of the Web-Based Sign Language Translation Tool follows a clear and structured sequence to ensure smooth data processing from the user’s hand gesture to the final translated output. 
+The system begins with the User Input Stage, where the webcam captures live video frames in the browser.
+This video stream is passed to the Hand Detection Module, where MediaPipe Hands identifies and extracts 21 key hand landmarks from each frame.
+Once the landmarks are detected, the data moves into the Preprocessing Stage, where the coordinates are normalized, cleaned, and arranged into a consistent format suitable for model input.
+
+After preprocessing, the data enters the Prediction Module, which contains the trained TensorFlow Lite model. 
+This lightweight model analyzes the landmark patterns and predicts the corresponding sign gesture, such as digits from 0 to 9.
+The predicted output is then transferred to the Post-Processing Stage, where the system checks prediction confidence, filters unstable outputs, and prepares the final result. 
+The output is sent to the User Interface Module, where the recognized gesture is displayed instantly in a text box on the screen.
+
+Additionally, the design flow includes an optional Speech Output Module, where the browser’s text-to-speech engine converts the recognized text into spoken words.
+The final stage is the Feedback Loop, where the system continuously updates the process as new frames arrive, allowing smooth real-time translation. 
+This structured design flow ensures that the tool operates efficiently, delivering fast, accurate, and user-friendly gesture translation directly through the web browser.
