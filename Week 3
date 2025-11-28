@@ -1,0 +1,11 @@
+Week 3 -  Requirement analysis 
+The requirement analysis for the Web-Based Sign Language Translation Tool focused on identifying all the essential functional and non-functional needs required to build a reliable, accurate, and user-friendly system.
+The first requirement was the ability to capture live hand gestures through a webcam, which meant the system needed browser camera access and stable video processing. 
+The next requirement was extracting hand landmarks in real time, which led to selecting MediaPipe Hands as the primary framework due to its speed and accuracy. 
+Another major requirement was developing a machine learning model capable of recognizing numeric sign gestures, so the project needed a properly collected dataset, preprocessing scripts, and a model-conversion system to export it into TensorFlow Lite for web deployment.
+On the functional side, the system required modules for gesture capture, landmark extraction, prediction display, and smooth integration between frontend and backend. 
+A clear requirement was that the tool must show predictions instantly, without delays, making real-time performance a priority.
+The web interface needed to be simple, responsive, and accessible to all users, including those with no technical background.
+On the non-functional side, the system had to be lightweight, fast, secure, and capable of running directly in a browser without external installations.
+Requirements also included cross-device compatibility, low latency, and stable accuracy under different lighting conditions. 
+By analyzing these needs, the project gained a complete understanding of what components, technologies, and design strategies would be essential for building an efficient and practical sign language translation tool.
