@@ -1,0 +1,12 @@
+Week 6 - Methodologies
+The methodology followed during Week 1 focused on laying the complete groundwork for the Web-Based Sign Language Translation Tool.
+The primary approach of this week was to deeply understand the problem domain and identify the most effective techniques required to build a real-time, browser-based gesture recognition system.
+We began by adopting a systematic research methodology, where we collected relevant materials such as research papers, technical articles, and documentation on sign language recognition.
+This allowed us to study existing methods, analyze their advantages, and identify limitations that our project needed to overcome.
+Another key part of Week 1 methodology was defining the overall workflow of the project. 
+We mapped out each stage—from capturing hand gestures using a webcam to processing the video stream, extracting landmarks, training the recognition model, and finally displaying predictions on the web interface.
+This mapping process helped the team understand the dependencies between modules and how data should move from one stage to another. 
+We also compared different computer vision and machine learning frameworks and concluded that MediaPipe Hands and TensorFlow Lite were the most suitable choices due to their speed, accuracy, and compatibility with web-based deployment.
+Week 1 methodology also involved outlining the dataset preparation approach.
+We planned how gestures would be collected, how many samples were needed, and how landmark extraction would be carried out. In addition, we emphasized choosing lightweight algorithms capable of running smoothly in the browser.
+By the end of the week, the methodology provided a clear, structured roadmap that guided the upcoming development tasks and ensured the project started with strong technical direction.
